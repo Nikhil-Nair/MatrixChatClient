@@ -13,7 +13,5 @@ def sendMessage(roomKeys,accessToken, message):
 
 message = input("Enter the message")
 room_keys = ["uxDBdZPYtvacXYNYUJ:matrix.org", "fPCYiApwrypdAIUFFJ:matrix.org", "AbBCCRYxHlyiiJydmA:matrix.org"]
-key_file = open('taskData.txt', 'r')
-access_key = key_file.read().rstrip()
-key_file.close()
+access_key = "MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAbmlraGlsbmFpcjptYXRyaXgub3JnCjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0gOGNkKm9NLUtmdyprJl52bwowMDJmc2lnbmF0dXJlIHszZh9v8x4moRYtbgZeGpYCimKNWtsYGgu2kneU9H6aCg"
 sendMessage(room_keys, access_key, message)

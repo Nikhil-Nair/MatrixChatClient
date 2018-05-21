@@ -1,1 +1,19 @@
-MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAbmlraGlsbmFpcjptYXRyaXgub3JnCjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0gOGNkKm9NLUtmdyprJl52bwowMDJmc2lnbmF0dXJlIHszZh9v8x4moRYtbgZeGpYCimKNWtsYGgu2kneU9H6aCg
+Web Development, Api integration, Self learning:
+
+#Create a new matrix.org account by registering @  https://riot.im/app/
+
+#Create two or more Rooms Say ( TestRoom1 & TestRoom2 )
+
+#Get your access token from
+  Settings -> Advanced -> AccessToken from  https://riot.im/app/
+
+#Create a Web application ( in Python Django ) which will:
+  #Read your access token from a configuration file at the time of startup
+
+  #Wen started, it should show a simple Web interface with
+    #One text box
+    #one submit button
+
+    #When you type any message and press submit button, The message should be sent to all your rooms ( Or at-least more than one room Say  last two rooms from your Romm’s list )
+    
+    #You can refer their API specification here  and Client-server API guide
