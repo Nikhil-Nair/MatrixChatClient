@@ -1,0 +1,38 @@
+{% load crispy_forms_tags %}
+<html>
+<head>
+  <title>Matrix Broadcast Client</title>
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <ul class=" navbar-nav mx-auto ">
+      <a class="navbar navbar-brand text-center text-warning" href="/"><h2>A Matrix Broadcast App</h2></a>
+    </ul>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <form method="post">{% csrf_token %}
+        {{ form | crispy }}
+        <button type="submit" class="btn btn-outline-primary">Broadcast!</button>
+      </form>
+      <p class="text-primary">{{status}}</p>
+    </div>
+  </div>
+
+</body>
+</html>

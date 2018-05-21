@@ -1,0 +1,8 @@
+Access Key : MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAbmlraGlsbmFpcjptYXRyaXgub3JnCjAwMTZjaWQgdHlwZSA9IGFjY2VzcwowMDIxY2lkIG5vbmNlID0gWEdCI01sazVTZkV3VjhfLAowMDJmc2lnbmF0dXJlIB_UurXTkjz9zvKe2tiziq6lqC1R_YBHW9_XvDe5pTRqCg
+
+Chat Room Internal ID's
+Testroom 1 : !uxDBdZPYtvacXYNYUJ:matrix.org
+Testroom 2 : !fPCYiApwrypdAIUFFJ:matrix.org
+Testroom 3 : !AbBCCRYxHlyiiJydmA:matrix.org
+
+
